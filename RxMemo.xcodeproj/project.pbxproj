@@ -14,6 +14,7 @@
 		98642448264CFEBC007C1669 /* RxMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98642446264CFEBC007C1669 /* RxMemo.xcdatamodeld */; };
 		9864244A264CFEBD007C1669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98642449264CFEBD007C1669 /* Assets.xcassets */; };
 		9864244D264CFEBD007C1669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9864244B264CFEBD007C1669 /* LaunchScreen.storyboard */; };
+		9864245A264D084F007C1669 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98642459264D084F007C1669 /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		98642449264CFEBD007C1669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9864244C264CFEBD007C1669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9864244E264CFEBD007C1669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98642459264D084F007C1669 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		A901F1CE0816C348BA030350 /* Pods_RxMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F24FDC6044AD81AB222A5A /* Pods-RxMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMemo.debug.xcconfig"; path = "Target Support Files/Pods-RxMemo/Pods-RxMemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +99,7 @@
 		98642454264D0251007C1669 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				98642459264D084F007C1669 /* Memo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				9864243E264CFEBC007C1669 /* AppDelegate.swift in Sources */,
 				98642440264CFEBC007C1669 /* SceneDelegate.swift in Sources */,
 				98642448264CFEBC007C1669 /* RxMemo.xcdatamodeld in Sources */,
+				9864245A264D084F007C1669 /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
