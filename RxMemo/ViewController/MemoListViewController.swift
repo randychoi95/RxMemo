@@ -16,7 +16,7 @@ class MemoListViewController: UIViewController, ViewModelBindableType {
     
     @IBOutlet weak var listTableView: UITableView!
     
-    @IBOutlet weak var UIBarButtonItem: UIBarButtonItem!
+    @IBOutlet weak var addButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,5 +34,7 @@ class MemoListViewController: UIViewController, ViewModelBindableType {
                 cell.textLabel?.text = memo.content
             }
             .disposed(by: rx.disposeBag)
+        
+        addButton.rx.action = viewModel.makeCreateAction()
     }
 }
